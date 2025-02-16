@@ -197,3 +197,5 @@ aspect-ratio: 1 / 1;
 filter: drop-shadow(0px 0px 20px #0003);
 backdrop-filter: blur(15px); /* 背景模糊效果，模糊半径为10px */
 - webkit-backdrop-filter: blur(15px); /* 为兼容Safari浏览器 */
+# 96是css当中的标准的dpi
+# DPI = px / (mm / 25.4)
