@@ -5,7 +5,7 @@
 ```jsx
 <div className={classs.outBottomBox}>
   <div className={classs.outLineswitchBox}>
-    <span className={classs.label}>{getTranslation(TranslationsKeys.SNAPSHOT_CONTOUR)}</span>
+    <span className={classs.label}>{getTranslation(TranslationsKeys.)}</span>
     <div className={classes.btn} >
       <div
         onClick={async (e) => { /* ... 点击事件处理 ... */ }}
