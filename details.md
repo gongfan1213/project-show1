@@ -188,4 +188,12 @@ const handleBrowseFile = () => {
 **总结:**
 
 这段代码的主要问题是 `removeSpecificFilters` 方法中滤镜比较逻辑的不可靠性，以及过度使用自定义属性 `filtersMap` 导致的潜在问题。通过改进滤镜比较方法、统一 `filtersMap` 数据源、封装滤镜操作，并尽量使用 Fabric.js 的标准 API，可以提高代码的健壮性、可读性和可维护性。
-
+# 5
+-webkit-overflow-scrolling:touch;
+aspect-ratio: 1 / 1;
+原方法是通过setSrc的方式修改src值，但在编组的情况下似乎触发了Fabric的一个未知bug，缩放时候图片会变模糊，临时先采用克隆的方式解决 canvasEditor?.stopSaveHistory();
+电脑帧率较低时，deadline.timeRemaining()一直为0，会导致请求无法发出去，使用setTimeout兼容性更好
+使用MutationObserver监听dom变化来监听opencv加载完成，兼容safari Promise 状态为pedding下执行卡死问题
+filter: drop-shadow(0px 0px 20px #0003);
+backdrop-filter: blur(15px); /* 背景模糊效果，模糊半径为10px */
+- webkit-backdrop-filter: blur(15px); /* 为兼容Safari浏览器 */
