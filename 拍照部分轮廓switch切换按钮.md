@@ -1,3 +1,5 @@
+<img width="275" alt="image" src="https://github.com/user-attachments/assets/69329ae1-34fc-4650-bced-7d23500015e7" />
+
 这段代码和样式实现了一个带有自定义样式的开关按钮（类似 iOS 风格的 Switch），并且包含了点击事件处理逻辑。我将逐步分解：
 
 **1. HTML 结构 (JSX)**
