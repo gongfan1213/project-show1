@@ -97,3 +97,13 @@
   - `RelativeHeight`: `(目标高度 / 1080) * 100vh`
 
 - **好处:** 这种方法可以使页面元素在不同屏幕尺寸下保持相对比例，从而实现响应式布局。
+```js
+// 计算相对宽度的函数
+@function RelativeWidth($target) {
+  @return calc(#{$target} / 1920 * 100vw);
+}
+
+@function RelativeHeight($target) {
+  @return calc(#{$target} / 1080 * 100vh);
+}
+```
