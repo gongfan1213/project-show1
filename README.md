@@ -1,5 +1,5 @@
 # project-show1
-项目，之前太乱重开一个
+项目
 # 待更新
 # chatgpt4o和geimini2.0整理
 # 视觉呈现
